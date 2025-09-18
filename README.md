@@ -13,12 +13,13 @@ As a player of D&D games like Baldur's Gate 3, I often found myself wasting valu
 This project's "Arcane Signature" visualization provides a clear, practical analysis of any D&D class's magical identity. By moving beyond simple lists and tables, we can instantly draw conclusions about a class's core magical strengths and most unique spells.
 
 For example, when generating the signature for the **Bard** class, we can see:
-* **Compositional Strengths:** The graph immediately reveals that the Bard's spellbook is heavily dominated by large clusters of **Enchantment** (green) and **Illusion** (white) spells. This visually confirms the Bard's role as a master of manipulation, charm, and deception.
+* **Compositional Strengths:** Which schools of magic are most dominant for a class?
+eg: The graph immediately reveals that the Bard's spellbook is heavily dominated by large clusters of **Enchantment** (green) and **Illusion** (white) spells. This visually confirms the Bard's role as a master of manipulation, charm, and deception.
 <img width="857" height="544" alt="image" src="https://github.com/user-attachments/assets/f5049970-d9f1-4453-bf46-6e5c9752d745" />
 
 
 
-* **Exclusive Spells:** Within these clusters, we can identify the largest nodes, representing the spells most unique to the Bard. This allows a player to quickly distinguish between a common spell like *Charm Person* and a more defining, class-specific spell, helping them make more strategic choices about which spells to prepare.
+* **Exclusive Spells:** Within these clusters, we can identify the largest nodes, representing the spells most unique to the Class. This allows a player to quickly distinguish between a common spell and a more defining, class-specific spell, helping them make more strategic choices about which spells to prepare.
 <img width="1542" height="661" alt="image" src="https://github.com/user-attachments/assets/bd70ec57-4556-4a35-bf7a-3ddedd1eb9e1" />
 
 
@@ -67,7 +68,7 @@ The spells in the visualization are colored according to their school of magic, 
 
 ---
 ## How to Run
-1.  **Set up the environment:** Open the `Visualizing_the_Magical_Core_of_D&D_Classes.ipynb` notebook in Google Colab.
+1.  **Set up the environment:** Open the `Arcane-signatures.ipynb` notebook in Google Colab.
 2.  **Upload Data:** Upload the D&D spell dataset file (`dnd-spells.csv`).
 3.  **Execute Cells:** Run the notebook cells to install libraries, load and prepare the data, and create the color map.
 4.  **Enter Class Name:** When prompted, enter the name of the D&D class you wish to analyze (e.g., "Wizard", "Sorcerer", "Bard").
