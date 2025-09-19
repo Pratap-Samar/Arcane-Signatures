@@ -10,9 +10,9 @@ As a player of D&D games like Baldur's Gate 3, I often found myself wasting valu
 
 ---
 ## Key Findings & Analysis
-This project's "Arcane Signature" visualization provides a clear, practical analysis of any D&D class's magical identity. By moving beyond simple lists and tables, we can instantly draw conclusions about a class's core magical strengths and most unique spells.
+This project's "Arcane Signature" visualization offers a clear and practical analysis of the magical identity of any D&D class. By moving beyond simple lists and tables, we can instantly conclude a class's core magical strengths and most unique spells.
 
-For example, when generating the signature for the **Bard** class, we can see:
+For any selected D&D Class, it shows:
 * **Compositional Strengths:** Which schools of magic are most dominant for a class?
 eg: The graph immediately reveals that the Bard's spellbook is heavily dominated by large clusters of **Enchantment** (green) and **Illusion** (white) spells. This visually confirms the Bard's role as a master of manipulation, charm, and deception.
 <img width="857" height="544" alt="image" src="https://github.com/user-attachments/assets/f5049970-d9f1-4453-bf46-6e5c9752d745" />
